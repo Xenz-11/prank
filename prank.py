@@ -321,6 +321,6 @@ if __name__ == "__main__":
 	os.system('git pull')
 	mulai().menu()
 #=======[ INFORMATION ]=======#
-#       CREARED BY XENZ       #
+#       CREATED BY XENZ       #
 #=============================#
 
