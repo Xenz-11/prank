@@ -86,7 +86,7 @@ class mulai:
 					teks2 = mark(teks, style='bold blue')
 					Console().print(teks2, style='bold purple')
 		except ConnectionError:
-			teks = '# KONESI JARINGAL TIDAK STABIL'
+			teks = '# KONESI JARINGAN TIDAK STABIL'
 			teks2 = mark(teks, style='bold blue')
 			Console().print(teks2, style='bold purple')
 			sys.exit()
