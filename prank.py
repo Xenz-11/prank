@@ -124,8 +124,7 @@ class mulai:
 				self.dokter(no, jum)
 				self.tokotalk(no, jum)
 				self.tokotalk2(no, jum)
-				xenz = requests.get('https://xenzi-wa.herokuapp.com/api/wa',params={'phone':no}).text
-				res_wa = json.loads(xenz)['result']['Message']
+				
 			teks = '# SPAM SELESAI'
 			teks2 = mark(teks, style='bold blue')
 			Console().print(teks2, style='bold purple')
